@@ -38,8 +38,8 @@ if userChoice == computerChoice:
 elif userChoice == 0 and computerChoice == 1:
     print(f"Your Choice:{rockPaperScissors[userChoice]}\nComputer chooses: {rockPaperScissors[computerChoice]}\n You Lose")
 elif userChoice == 1 and computerChoice == 2:
-    print(f"Your Choice:{rockPaperScissors[userChoice]} \nComputer chooses: {rockPaperScissors[computerChoice]}\n You Lose")
+    print(f"Your Choice:{rockPaperScissors[userChoice]} \n Computer chooses: {rockPaperScissors[computerChoice]}\n You Lose")
 elif userChoice == 2 and computerChoice == 0:
-    print(f"Your Choice:{rockPaperScissors[userChoice]}Computer chooses: {rockPaperScissors[computerChoice]} You Lose")
+    print(f"Your Choice:{rockPaperScissors[userChoice]}\nComputer chooses: {rockPaperScissors[computerChoice]}\n You Lose")
 else:
-    print(f"Your Choice:{rockPaperScissors[userChoice]}Computer chooses: {rockPaperScissors[computerChoice]} You Win")
+    print(f"Your Choice:{rockPaperScissors[userChoice]}\nComputer chooses: {rockPaperScissors[computerChoice]}\n You Win")
